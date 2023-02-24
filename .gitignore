@@ -15,3 +15,5 @@
 # NuGet Packages
 *.nupkg
 **/packages/*
+/.vs/guid-generator/v17
+/src/.vs/GuidGenerator/FileContentIndex
