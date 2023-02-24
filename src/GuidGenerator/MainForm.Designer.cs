@@ -57,7 +57,7 @@
             this.buttonCopy.TabIndex = 0;
             this.buttonCopy.Text = "&Copy";
             this.buttonCopy.UseVisualStyleBackColor = true;
-            this.buttonCopy.Click += new System.EventHandler(this.buttonCopy_Click);
+            this.buttonCopy.Click += new System.EventHandler(this.ButtonCopy_Click);
             // 
             // buttonNewGuid
             // 
@@ -68,7 +68,7 @@
             this.buttonNewGuid.TabIndex = 1;
             this.buttonNewGuid.Text = "&New GUID";
             this.buttonNewGuid.UseVisualStyleBackColor = true;
-            this.buttonNewGuid.Click += new System.EventHandler(this.buttonNewGuid_Click);
+            this.buttonNewGuid.Click += new System.EventHandler(this.ButtonNewGuid_Click);
             // 
             // buttonExit
             // 
@@ -80,7 +80,7 @@
             this.buttonExit.TabIndex = 2;
             this.buttonExit.Text = "E&xit";
             this.buttonExit.UseVisualStyleBackColor = true;
-            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            this.buttonExit.Click += new System.EventHandler(this.ButtonExit_Click);
             // 
             // groupBoxResult
             // 
@@ -146,7 +146,7 @@
             this.radioButtonShortFormat.TabIndex = 7;
             this.radioButtonShortFormat.Text = "&7. Short GUID";
             this.radioButtonShortFormat.UseVisualStyleBackColor = true;
-            this.radioButtonShortFormat.CheckedChanged += new System.EventHandler(this.radioButtonGuidFormat_CheckedChanged);
+            this.radioButtonShortFormat.CheckedChanged += new System.EventHandler(this.RadioButtonGuidFormat_CheckedChanged);
             // 
             // radioButtonTagFormat
             // 
@@ -157,7 +157,7 @@
             this.radioButtonTagFormat.TabIndex = 6;
             this.radioButtonTagFormat.Text = "&6. <Guid(\"xxxxxxxx-xxxx ... xxxx\")>";
             this.radioButtonTagFormat.UseVisualStyleBackColor = true;
-            this.radioButtonTagFormat.CheckedChanged += new System.EventHandler(this.radioButtonGuidFormat_CheckedChanged);
+            this.radioButtonTagFormat.CheckedChanged += new System.EventHandler(this.RadioButtonGuidFormat_CheckedChanged);
             // 
             // radioButtonAttributeFormat
             // 
@@ -168,7 +168,7 @@
             this.radioButtonAttributeFormat.TabIndex = 5;
             this.radioButtonAttributeFormat.Text = "&5. [Guid(\"xxxxxxxx-xxxx ... xxxx\")]";
             this.radioButtonAttributeFormat.UseVisualStyleBackColor = true;
-            this.radioButtonAttributeFormat.CheckedChanged += new System.EventHandler(this.radioButtonGuidFormat_CheckedChanged);
+            this.radioButtonAttributeFormat.CheckedChanged += new System.EventHandler(this.RadioButtonGuidFormat_CheckedChanged);
             // 
             // radioButtonRegistryFormat
             // 
@@ -179,7 +179,7 @@
             this.radioButtonRegistryFormat.TabIndex = 4;
             this.radioButtonRegistryFormat.Text = "&4. Registry Format (i.e. {xxxxxxxx-xxxx ... xxxx })";
             this.radioButtonRegistryFormat.UseVisualStyleBackColor = true;
-            this.radioButtonRegistryFormat.CheckedChanged += new System.EventHandler(this.radioButtonGuidFormat_CheckedChanged);
+            this.radioButtonRegistryFormat.CheckedChanged += new System.EventHandler(this.RadioButtonGuidFormat_CheckedChanged);
             // 
             // radioButtonConstFormat
             // 
@@ -190,7 +190,7 @@
             this.radioButtonConstFormat.TabIndex = 3;
             this.radioButtonConstFormat.Text = "&3. static const struct GUID = { ... }";
             this.radioButtonConstFormat.UseVisualStyleBackColor = true;
-            this.radioButtonConstFormat.CheckedChanged += new System.EventHandler(this.radioButtonGuidFormat_CheckedChanged);
+            this.radioButtonConstFormat.CheckedChanged += new System.EventHandler(this.RadioButtonGuidFormat_CheckedChanged);
             // 
             // radioButtonDefineFormat
             // 
@@ -201,7 +201,7 @@
             this.radioButtonDefineFormat.TabIndex = 2;
             this.radioButtonDefineFormat.Text = "&2. DEFINE_GUID(...)";
             this.radioButtonDefineFormat.UseVisualStyleBackColor = true;
-            this.radioButtonDefineFormat.CheckedChanged += new System.EventHandler(this.radioButtonGuidFormat_CheckedChanged);
+            this.radioButtonDefineFormat.CheckedChanged += new System.EventHandler(this.RadioButtonGuidFormat_CheckedChanged);
             // 
             // radioButtonOleCreateFormat
             // 
@@ -214,7 +214,7 @@
             this.radioButtonOleCreateFormat.TabStop = true;
             this.radioButtonOleCreateFormat.Text = "&1. IMPLEMENT _OLECREATE(...)";
             this.radioButtonOleCreateFormat.UseVisualStyleBackColor = true;
-            this.radioButtonOleCreateFormat.CheckedChanged += new System.EventHandler(this.radioButtonGuidFormat_CheckedChanged);
+            this.radioButtonOleCreateFormat.CheckedChanged += new System.EventHandler(this.RadioButtonGuidFormat_CheckedChanged);
             // 
             // label1
             // 

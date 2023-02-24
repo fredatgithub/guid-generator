@@ -16,22 +16,22 @@ namespace GuidGenerator
 
         #region Event Handlers
 
-        private void buttonCopy_Click(object sender, EventArgs e)
+        private void ButtonCopy_Click(object sender, EventArgs e)
         {
             CopyToClipboard();
         }
 
-        private void buttonNewGuid_Click(object sender, EventArgs e)
+        private void ButtonNewGuid_Click(object sender, EventArgs e)
         {
             GenerateNewGuid();
         }
 
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void ButtonExit_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void radioButtonGuidFormat_CheckedChanged(object sender, EventArgs e)
+        private void RadioButtonGuidFormat_CheckedChanged(object sender, EventArgs e)
         {
             if (((RadioButton)sender).Checked)
             {
